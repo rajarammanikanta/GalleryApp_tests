@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 5px;
+}
+
+.image1 {
+  height: 60vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .image1 {
+    width: 100%;
+    height: 30vh;
+  }
+  * {
+    font-size: 10px;
+  }
+}
+ul {
+  list-style-type: none;
+}
+.thumbnail-container {
+  display: flex;
+}
+@media screen and (max-width: 576px) {
+  .thumbnail-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
